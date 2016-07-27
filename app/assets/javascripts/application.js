@@ -6,3 +6,7 @@
 //= require jquery.cookie
 //= require general
 //= require ba-throttle-debounce
+//=require foundation/foundation
+//=require foundation/foundation.dropdown
+
+$(document).foundation();
