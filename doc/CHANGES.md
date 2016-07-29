@@ -1,3 +1,16 @@
+# develop
+
+## Highlighted Features
+
+* Apache and nginx example files now have far-future expiration dates for static assets
+  to allow browser-based caching (Louise Crow)
+
+## Upgrade Notes
+
+* You can improve the speed of your site by making sure that far-future expiration dates
+  are being set on static assets - see the examples in the example config files (`config/
+  httpd.conf-example` and `config/nginx.conf.example`).
+
 # Version 0.25.0.0
 
 ## Highlighted Features
